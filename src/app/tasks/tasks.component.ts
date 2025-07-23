@@ -50,4 +50,8 @@ onCompleteTask(id: string) {
 onAddTask() {
   this.isAddingTask = true;
 }
+
+onCancellAddTask() {
+  this.isAddingTask = false;
+}
 }
